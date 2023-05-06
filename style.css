@@ -1,0 +1,50 @@
+*{
+    margin: 0px ;
+    padding: 0px ;
+    cursor: pointer;
+    background-color: grey;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    flex-wrap: wrap;
+  
+   
+    
+}
+div{
+    margin-top: 50px ;
+    row-gap: 10px ;
+    column-gap: 10px ;
+    box-shadow:0  5px 10px ;
+    height: 420px ;
+    width: 320px ;
+    background-color: darkgreen;
+    
+
+}
+
+
+button{
+    font-size: 25px ;
+    align-self: center;
+    height: 50px ;
+    width: 50px ;
+    padding:10px 5px;
+margin: 20px 3px 0px 15px ;
+border-radius: 100%;
+background-color: crimson;
+border: transparent;
+
+}
+#input{
+    width: 295px ;
+    height: 80px ;
+    margin-top: 10px ;
+    margin-left: 10px ;
+    align-self: center;
+    font-size: 15px;
+    background-color: bisque;
+}
